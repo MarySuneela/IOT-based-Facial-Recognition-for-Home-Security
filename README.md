@@ -39,14 +39,18 @@ This project implements an advanced home security system that uses facial recogn
 
 3. **Running the scripts**:
 1. Register Faces: Run the following command to capture authorized users' faces:
-` python register_face.py `
+
+``` python register_face.py ```
 
 2. Train the Model: Once faces are registered, train the recognition model:
-` python train_faces.py `
+
+``` python train_faces.py ```
+
 This script processes thousands of images (captured in the register_face.py step) to create a reliable model for facial recognition. It improves the accuracy of the system by incorporating various facial expressions and lighting conditions.
 
 3. Run the System: Start the real-time security system:
-` python main.py `
+
+``` python main.py ```
 
 ## System Architecture
 The proposed system consists of the following modules:
